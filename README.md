@@ -10,7 +10,6 @@
 - spotify
 - img2text
 - pintarest
-- 
 
 
 ## Usage GPT
