@@ -1,0 +1,31 @@
+{
+  "name": "nayan-server",
+  "version": "2.0.2",
+  "description": "Simple create api(Mohammad Nayan)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-NAYAN-404/NAYAN-SERVER.git"
+  },
+  "keywords": [
+    "spotify",
+    "pintarest",
+    "gpt",
+    "img2text",
+    "nayan"
+  ],
+  "author": "NAYAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MR-NAYAN-404/NAYAN-SERVER/issues"
+  },
+  "homepage": "https://github.com/MR-NAYAN-404/NAYAN-SERVER#readme",
+  "dependencies": {
+    "got": "^11.8.3",
+    "cheerio": "~1.0.0-rc.5",
+    "axios": "^1.6.5"
+  }
+}
