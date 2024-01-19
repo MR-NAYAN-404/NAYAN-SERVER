@@ -15,10 +15,10 @@
 #### Available Api
 
 ```
-- gpt
-- spotify
-- img2text
-- pintarest
+• gpt
+• spotify
+• img2text
+• pintarest
 ```
 
 <h3 align="center">
@@ -31,7 +31,7 @@
 ## Usage GPT
 
 ```javascript
-// import { gpt } from "gpti";
+
 const { gpt } = require("nayan-server");
 
 gpt({
@@ -93,10 +93,7 @@ pintarest(search).then(data => {
 ```javascript
 const { img2text } = require("nayan-server");
 
-const link = "https://i.imgur.com/2TTyRTo.jpeg" //photo direct link
-
-img2text(link).then(data => {
+img2text("https://i.imgur.com/2TTyRTo.jpeg").then(data => {
   console.log(data)
- 
 });
 ```
