@@ -53,7 +53,7 @@ const { spotify } = require("nayan-server");
 
 const name = "ghum" //song name
 
-spotify(ghum).then(data => {
+spotify(name).then(data => {
   console.log(data)
  
 });
