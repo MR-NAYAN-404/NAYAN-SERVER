@@ -1,3 +1,10 @@
+
+<h3 align="center">
+  
+  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -NAYAN SERVER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  
+</h3>
+
 ## Instalation :
 ```bash
 > npm i nayan-server
@@ -5,12 +12,18 @@
 
 #### Available Api
 
-
+```
 - gpt
 - spotify
 - img2text
 - pintarest
+```
 
+<h3 align="center">
+  
+  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -MORE API COMING SOON-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  
+</h3>
 
 ## Usage GPT
 
