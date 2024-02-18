@@ -24,6 +24,7 @@
 • spotify
 • img2text
 • pintarest
+• bing
 ```
 
 <h3 align="center">
@@ -102,3 +103,14 @@ img2text("https://i.imgur.com/2TTyRTo.jpeg").then(data => {
   console.log(data)
 });
 ```
+
+## Usage Bing 
+```javascript
+const { bing } = require("nayan-server");
+cookie = "" //past bing cookies
+const text = "2 boy playing football"your promt
+
+bing(cookie, text).then(data => {
+  console.log(data)
+
+});
