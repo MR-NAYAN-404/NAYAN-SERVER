@@ -24,7 +24,8 @@
 • spotify
 • img2text
 • pintarest
-• bing
+• textpro
+• photoxy
 ```
 
 <h3 align="center">
@@ -103,14 +104,27 @@ img2text("https://i.imgur.com/2TTyRTo.jpeg").then(data => {
   console.log(data)
 });
 ```
+## Usage PHOTOXY
+```js
+const {photoxy} = require("nayan-server");
 
-## Usage Bing 
-```javascript
-const { bing } = require("nayan-server");
-cookie = "" //past bing cookies
-const text = "2 boy playing football"your promt
+const url = "url" // photoxy url
 
-bing(cookie, text).then(data => {
-  console.log(data)
+const text = "nayan" // your text
 
-});
+  photoxy(url, [text])
+.then((data) => console.log(data))
+.catch((err) => console.log(err));
+```
+## Usaage Textpro
+```JS
+const {textpro} = require("nayan-server");
+
+const url = "url" // textpro url
+
+const text = "nayan" // your text
+
+    textpro(url, [text])
+.then((data) => console.log(data))
+.catch((err) => console.log(err));
+```
