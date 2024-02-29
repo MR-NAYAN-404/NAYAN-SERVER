@@ -128,3 +128,15 @@ const text = "nayan" // your text
 .then((data) => console.log(data))
 .catch((err) => console.log(err));
 ```
+## Usage Ip2Lucation 
+```js
+const { ip } = require("nayan-server");
+
+const address = "ip" //ip address
+
+ip(address).then(data => {
+  console.log(data)
+
+});
+```
+
