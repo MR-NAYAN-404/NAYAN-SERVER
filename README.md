@@ -26,6 +26,7 @@
 • pintarest
 • textpro
 • photoxy
+• ip2lucation
 ```
 
 <h3 align="center">
