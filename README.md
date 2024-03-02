@@ -129,6 +129,7 @@ const text2 = "nayan" // your text
   photoxy(url, [text, text2])
 .then((data) => console.log(data))
 .catch((err) => console.log(err));
+```
 ## Usaage Textpro
 ```JS
 const {textpro} = require("nayan-server");
