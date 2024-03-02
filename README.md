@@ -117,6 +117,18 @@ const text = "nayan" // your text
 .then((data) => console.log(data))
 .catch((err) => console.log(err));
 ```
+## Usage Photoxy 2 text 
+```js
+const {photoxy} = require("nayan-server");
+
+const url = "url" // photoxy 2 text input url
+
+const text = "Mohammad" // your text
+const text2 = "nayan" // your text
+
+  photoxy(url, [text, text2])
+.then((data) => console.log(data))
+.catch((err) => console.log(err));
 ## Usaage Textpro
 ```JS
 const {textpro} = require("nayan-server");
@@ -128,6 +140,19 @@ const text = "nayan" // your text
     textpro(url, [text])
 .then((data) => console.log(data))
 .catch((err) => console.log(err));
+```
+## Usage Textpro 2 text 
+```js
+const {textpro} = require("nayan-server");
+
+const url = "url" // textpro 2 text input url
+
+const text = "Mohammad"//your text
+const text2 = "nayan"// your text
+
+    textpro(url, [text, text2])
+.then((data) => console.log(data))
+.catch((err) => console.log(err))
 ```
 ## Usage Ip2Lucation 
 ```js
