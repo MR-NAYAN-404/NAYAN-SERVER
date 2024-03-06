@@ -166,4 +166,15 @@ ip(address).then(data => {
 
 });
 ```
+## Usage removebg 
+```js
+const { removebg } = require("nayan-server");
+
+const url = "url" //pic url
+
+removebg(url).then(data => {
+  console.log(data)
+
+});
+```
 
