@@ -27,6 +27,7 @@
 • textpro
 • photoxy
 • ip2lucation
+• removebg
 ```
 
 <h3 align="center">
