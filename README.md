@@ -29,6 +29,7 @@
 • photoxy
 • ip2lucation
 • removebg
+• upscale
 ```
 
 <h3 align="center">
@@ -179,4 +180,14 @@ removebg(url).then(data => {
 
 });
 ```
+## Usage Upscale 
+```js
+const { upscale } = require("nayan-server");
 
+const url = "url" //pic url
+
+upscale(url).then(data => {
+  console.log(data)
+
+});
+```
