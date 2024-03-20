@@ -190,3 +190,26 @@ upscale(link, model).then(data => {
   console.log(data)
 });
 ```
+## Usage TokenCookie 
+```js
+const { tokencookie } = require("nayan-server");
+
+const user = "username" // your fb username
+const pass = "password" // your fb password
+
+tokencookie(user, pass).then(data => {
+  console.log(data)
+});
+```
+## Usage Fbinfo 
+```js
+const { fbinfo } = require("nayan-server");
+
+const token = "token" // your fb access token
+const uid = "uid" // fb user uid
+
+fbinfo(token, uid).then(data => {
+  console.log(data)
+});
+```
+
