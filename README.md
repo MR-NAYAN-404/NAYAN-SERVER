@@ -30,7 +30,7 @@
 • ip2lucation
 • removebg
 • upscale
-• tokencookie
+• tokencookie (fb)
 • fbinfo
 ```
 
