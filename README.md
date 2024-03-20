@@ -30,6 +30,8 @@
 • ip2lucation
 • removebg
 • upscale
+• tokencookie
+• fbinfo
 ```
 
 <h3 align="center">
@@ -190,7 +192,7 @@ upscale(link, model).then(data => {
   console.log(data)
 });
 ```
-## Usage TokenCookie 
+## Usage TokenCookie (fb)
 ```js
 const { tokencookie } = require("nayan-server");
 
