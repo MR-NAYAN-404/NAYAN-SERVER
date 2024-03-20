@@ -1,6 +1,6 @@
 {
   "name": "nayan-server",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Simple create api(Mohammad Nayan)",
   "main": "src/index.js",
   "scripts": {
@@ -21,6 +21,9 @@
     "ip2lucation",
     "removebg",
     "upscale",
+    "token",
+    "cookies",
+    "fbinfo",
     "nayan"
   ],
   "author": "NAYAN",
