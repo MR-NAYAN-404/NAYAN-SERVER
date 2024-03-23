@@ -32,6 +32,7 @@
 • upscale
 • tokencookie (fb)
 • fbinfo
+• GDLink
 ```
 
 <h3 align="center">
@@ -212,6 +213,17 @@ const uid = "uid" // fb user uid
 
 fbinfo(token, uid).then(data => {
   console.log(data)
+});
+```
+## Usage GDLink 
+```js
+const {GDLink} = require("nayan-server");
+
+const url = 'url' // Public Google Drive Url
+
+GDLink(url).then(data => {
+  console.log(data)
+
 });
 ```
 
