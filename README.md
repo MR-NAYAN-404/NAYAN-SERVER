@@ -237,4 +237,13 @@ const limit = "5" // limit of results (total limit 1-20)
   console.log(data)
 });
 ```
+## Usage Imagine 
+```js
+const { imagine } = require("nayan-server");
+
+const promt = "cat, 4k" // your promt
+  imagine(promt).then(data => {
+  console.log(data)
+});
+```
 
