@@ -33,6 +33,7 @@
 • tokencookie (fb)
 • fbinfo
 • GDLink
+• google web search
 ```
 
 <h3 align="center">
@@ -224,6 +225,16 @@ const url = 'url' // Public Google Drive Url
 GDLink(url).then(data => {
   console.log(data)
 
+});
+```
+## Usage Google Web Search 
+```js
+const { gwsearch } = require("nayan-server");
+
+const name = "nayan-server" // Name of the website
+const limit = "5" // limit of results (total limit 1-20)
+  gwsearch(name, limit).then(data => {
+  console.log(data)
 });
 ```
 
